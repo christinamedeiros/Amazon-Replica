@@ -1,0 +1,186 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+ #ad-line{
+  height:4em;
+  display: inline;
+ }
+
+ #ad-line p{
+   letter-spacing: 0.2em;
+ }
+
+#ad-line p span{
+  color:gray;
+}
+
+#explore{
+  background-color: black;
+  color:white;
+  padding:0.8em;
+  border-radius: 0;
+}
+ .search{
+   color: white;
+   background-color: #242F3E;
+   height: 40%;
+   padding: 0 2em 0 2em;
+ }
+
+#logo{
+  height:9%;
+  width: 12%;
+}
+ .search a{
+   text-decoration: none;
+   color:white;
+ }
+
+ #departments{
+   font-weight: bold;
+ }
+ /******************************************/
+ #banner{
+   width:100%;
+   height:auto;
+ }
+
+.advertising{
+  display: inline;
+}
+.profile-info{
+  border: 10px solid #EBEDED;
+  width: 20%;
+  padding-left: 1em;
+  line-height: 80%;
+}
+
+#profile-image{
+  width:4em;
+  height: 4em;
+}
+
+.title{
+  color:gray;
+}
+
+.list{
+  display: inline-block;
+  margin:0;
+}
+
+.list div{
+  margin:2em;
+  border: 8px solid #EBEDED;
+  height:auto;
+  width: 20em;
+}
+
+.list div p:first-child{
+  text-decoration:underline;
+}
+
+.list div p{
+  padding:0.5em;
+  margin:0;
+}
+
+#prime{
+  color:#82D8E3;
+  margin:0.5em;
+}
+
+#fresh{
+  color:#AEE423;
+  margin:0.5em;
+}
+
+#video{
+  color:#FFA724;
+  margin:0.5em;
+}
+
+#music{
+  color:#FF5252;
+  margin:0.5em;
+}
+
+#alexa{
+  color:#82D8E3;
+  margin:0.5em;
+}
+
+ /******************************************/
+ .recommendations{
+   display: inline;
+ }
+
+.recommendations p{
+  font-size: 1.5em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
